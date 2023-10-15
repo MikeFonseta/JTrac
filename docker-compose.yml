@@ -1,0 +1,6 @@
+services:
+    java:
+        hostname: localhost
+        build: .
+        ports:
+            - 8000:80
