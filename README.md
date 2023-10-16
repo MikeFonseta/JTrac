@@ -1,2 +1,7 @@
-Per la versione 2.1.0 utilizzare l'URL seguente: http://127.0.0.1/jtrac/app
-Per le versioni successive alla 2.1.0 utilizzare l'URL seguente: http://127.0.0.1:8888/app e configurare il linguaggio ad italiano prima di ogni test
+#ISTRUZIONI PER IL CORRETTO AVVIO SU http://localhost:8888/app
+docker build -t jtrac .
+docker run --network host --name jtrac jtrac
+
+
+#PRIMA DI INIZIARE QUALSIASI TEST
+python3 Lang_IT.py

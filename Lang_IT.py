@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu') 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(options)
 
 driver.get("http://127.0.0.1:8888/app")
 

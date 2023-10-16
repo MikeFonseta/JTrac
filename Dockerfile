@@ -1,10 +1,4 @@
 FROM openjdk:11
-
-# Set the working directory
-WORKDIR /
-
-# Copy the application jar to the container
-COPY jtrac/ .
-EXPOSE 8080
-
-CMD ["echo", "HERE"]
+COPY Versions/2.2.0/ .
+RUN rm -rf logs/ && rm -rf data/
+ENTRYPOINT ["sh","/start.sh"]

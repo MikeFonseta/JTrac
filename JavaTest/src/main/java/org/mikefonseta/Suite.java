@@ -17,7 +17,6 @@ import static org.testng.AssertJUnit.assertTrue;
 public class Suite {
 
     private static final String MAIN = "http://127.0.0.1:8888/app";
-    //private static final String MAIN = "http://127.0.0.1/jtrac/app";
 
     private static WebDriver driver;
 
