@@ -16,8 +16,9 @@ docker build -t jtrac .
 docker run --network host --name jtrac jtrac
 ```
 ## Terminare applicativo
+```
 docker stop jtrac
-
+```
 
 ## Configurazione applicativo
 Prima di ogni test sarà necessario impostare la lingua italiana manualmente oppure mandando in esecuzione il seguente script python
