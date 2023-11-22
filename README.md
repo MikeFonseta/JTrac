@@ -1,6 +1,6 @@
 # JTrac
 
-[Vedi pagina sourceforge](https://sourceforge.net/projects/rephormer/)
+[Vedi pagina sourceforge](https://sourceforge.net/projects/j-trac/)
 
 ## Avvio applicativo
 
