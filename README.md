@@ -26,4 +26,10 @@ Prima di ogni test sarà necessario impostare la lingua italiana manualmente opp
 python3 Lang_IT.py
 ```
 
+## Test Selenium WebDriver con Java e JUnit
+Progetto nella cartella JavaTests
+
+## Test SeleniumIDE
+Aprire JTrac.side con SeleniumIDE
+
 
